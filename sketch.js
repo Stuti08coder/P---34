@@ -87,7 +87,7 @@ function draw() {
 
 
 function mouseDragged(){
-  Matter.Body.setPosition(this.hero,{x:mouseX,y:mouseY});
+  Matter.Body.setPosition(hero.body,{x:mouseX,y:mouseY});
 }
 function mouseReleased(){
   rope.fly();
